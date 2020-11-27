@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  padding: 0 4rem;
+  width: 100%;
+}
+
+.header {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.header .left {
+  float: left;
+  width: 20%;
+}
+
+.header .left a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.header .right {
+  padding-top: 7px;
+  float: right;
+  width: 80%;
+  text-align: right;
+}
+
+.header .right a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14.4px;
+  margin: 0 10px;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.first {
+  background-image: url(../photo/masthead1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 14rem 0;
+  position: relative;
+  z-index: 111;
+}
+
+.first .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92, 77, 66, 0.8);
+  z-index: -111;
+}
+
+.first .firsttext {
+  text-align: center;
+}
+
+.first .firsttext h1 {
+  text-align: center;
+  font-size: 56px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.first .firsttext hr {
+  height: 3px;
+  width: 50px;
+  border-width: 0.2rem;
+  background-color: #f4623a;
+  margin: 30px auto;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+}
+
+.first .firsttext p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 3rem;
+  line-height: 1rem;
+  font-size: 20px;
+}
+
+.first .firsttext a {
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 20px 36px;
+  color: #fff;
+  background-color: #f4623a;
+}
+
+.second {
+  padding: 8rem 0;
+  background-color: #F4623A;
+  text-align: center;
+}
+
+.second h2 {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+.second hr {
+  height: 3px;
+  width: 50px;
+  border-width: 0.2rem;
+  background-color: #fff;
+  margin: 30px auto;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+}
+
+.second p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 3rem;
+  line-height: 1rem;
+  font-size: 20px;
+}
+
+.second a {
+  color: #000;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 20px 36px;
+}
+
+.third {
+  padding: 8rem 0;
+}
+
+.third h2 {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.third hr {
+  height: 3px;
+  width: 50px;
+  border-width: 0.2rem;
+  background-color: #f4623a;
+  margin: 30px auto;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+}
+
+.third .all .box {
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+
+.third .all .box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+.third .all .box P {
+  color: #6c757d;
+}
+
+.third .all .box i {
+  color: #f4623a;
+  width: 1.125rem;
+  margin-bottom: 1.5rem;
+  font-size: 4em;
+  height: 1em;
+}
+
+.fourth {
+  margin: 5rem 0;
+}
+
+.fourth .sixall .boxx {
+  float: left;
+  width: 33.3%;
+  position: relative;
+}
+
+.fourth .sixall .boxx:hover .overlay {
+  opacity: 0.8;
+}
+
+.fourth .sixall .boxx:hover .bxtext {
+  opacity: 1;
+}
+
+.fourth .sixall .boxx .bxtext {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.fourth .sixall .boxx .bxtext h4, .fourth .sixall .boxx .bxtext h3 {
+  color: #fff;
+}
+
+.fourth .sixall .boxx .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f24516;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.fourth .sixall .boxx img {
+  width: 100%;
+}
+
+.fifth {
+  text-align: center;
+  background-color: #343a40;
+  padding: 8rem;
+  margin-top: 530px;
+}
+
+.fifth h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.fifth a {
+  color: #212529;
+  background-color: #fff;
+  border-radius: 10rem;
+  padding: 1.25rem 2.25rem;
+  margin-top: 2rem;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+.last {
+  text-align: center;
+  background-color: #fff;
+  padding: 8rem;
+}
+
+.last h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.last hr {
+  height: 3px;
+  width: 50px;
+  border-width: 0.2rem;
+  background-color: #f4623a;
+  margin: 30px auto;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+}
+
+.last p {
+  color: #6c757d;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.last .contact .left {
+  float: left;
+  width: 50%;
+}
+
+.last .contact .left i {
+  color: #6c757d;
+  width: 1em;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  height: 1em;
+}
+
+.last .contact .left a {
+  color: #f4623a;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10rem;
+}
+
+.footer {
+  padding: 10rem 0 3rem;
+  text-align: center;
+}
+
+.footer p {
+  color: #6c757d;
+  font-weight: 400;
+  font-size: 80%;
+}
+/*# sourceMappingURL=style.css.map */
